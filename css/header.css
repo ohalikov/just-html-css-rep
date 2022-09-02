@@ -64,6 +64,37 @@ a:hover {
     max-width: 100%;
     height: auto
 }
+.selfLogo {
+    margin-right: 10px;
+}
+.left > .logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center
+}
+a.order__btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    position: relative;
+    border: 0;
+    z-index: 9;
+    color: var(--color-primary);
+    text-decoration: none;
+    cursor: pointer;
+    background: var(--color-white);
+    font-size: 1em;
+}
+
+.order__btn:hover {
+    color: var(--color-white);
+    background: var(--color-grey);
+}
 
 .header_1 {
     position: absolute;
@@ -156,6 +187,8 @@ a:hover {
 }
 
 .header__list li {
+    display: flex;
+    align-items: center;
     text-align: center;
     position: relative;
     list-style: none;
@@ -171,7 +204,7 @@ a:hover {
     right: 0;
     top: -12px;
     height: 2px;
-    background: #ffd700;
+    background: var(--color-primary);
     opacity: 0;
     z-index: 50
 }
@@ -184,14 +217,15 @@ a:hover {
     color: #fff !important;
     font-size: 1em;
     text-decoration: none !important;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px
+    max-width: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px */
 }
 
 a.lnk {
-    color: #ffd700
+    color: var(--color-primary)
 }
 
 /* #my-header{
@@ -208,7 +242,10 @@ a.lnk {
 .header-2 nav {
 	display: none;
 }
-
+.header-2__img-responsive {
+    max-width: 60%;
+    height: auto;
+}
 .header-2,
 
 .footer-2 {
@@ -226,12 +263,14 @@ a.lnk {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
-    min-height: 50px;
+    height: 50px;
     padding: 0 0px;
     position: fixed;
     font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: 4px;
     z-index: 9999;
+    top: 0;
+    right: 0;
     /* border-radius: 56px; */
     /* top: 3%; */
     /* right: 3%; */
@@ -248,7 +287,7 @@ a.lnk {
 }
 #menu-header {
     display: block;
-    width: 55px;
+    width: 50px;
     height: 40px;
     padding: 10px;
     margin: 0px;

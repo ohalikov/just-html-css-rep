@@ -123,6 +123,29 @@
 }
 
 @media screen and (max-width: 650px){
+    
+    .accordion-toggle, .accordion-content {
+        width: 100%;
+    }
+    .accordion-toggle span[class^='icon-plus'] {
+        right: -20px;
+    }
+    .our-team__masterName {
+        font-size: 1em;
+    }
+    .out-team__masterDescription, .accordion-toggle, .accordion-content {
+        font-size: 0.8em;
+    }
+    .bullets__header {
+        font-size: 1em;
+    }
+    .bullets {
+        min-height: 50vh;
+    }
+    .bullets__mini-container {
+        width: 95%;
+        height: 50vh;
+    }
     .footer_area {
         font-size: 0.8em;
         padding: 5%;
@@ -210,7 +233,7 @@
         font-size: 1em;
         background-size: 15px;
     }
-    .optimized-price__header, .our-services__header, .portfolio__header, .our-team__header, .process-list__header, .about-company__text-block__header {
+    .faq__header, .our-team__masters__header, .optimized-price__header, .our-services__header, .portfolio__header, .our-team__header, .process-list__header, .about-company__text-block__header {
         font-size: 1.75em;
     }
     h1.head_h1, .head_h2 {
@@ -293,7 +316,7 @@
         animation: none;
     }
     
-    .optimized-price__header, .our-services__header, .portfolio__header, .our-team__header, .process-list__header, .about-company__text-block__header {
+    .faq__header, .our-team__masters__header, .optimized-price__header, .our-services__header, .portfolio__header, .our-team__header, .process-list__header, .about-company__text-block__header {
         font-size: 1.5em;
     }
     h1.head_h1{
