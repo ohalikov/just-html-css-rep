@@ -1,0 +1,1838 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-transform: uppercase;
+}
+.img-zamyakin{
+    max-width: 40%;
+    height: auto;
+}
+.top_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    left: 7%;
+}
+.tel_top{
+    color:#ffffff;
+    text-decoration: none;
+    /* font-weight: 600; */
+    font-size: 1.2em;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.block_center{
+    text-align: center;
+}
+.Clean-night{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    /* background-image: url("../images/nochnaya-uborka-sneg.jpg"), linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)); */
+
+   background-image: url(../images/nochnaya-uborka-sneg.jpg);
+   background-size: cover;
+}
+.column-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70vh;
+    position: relative;
+    overflow-x: hidden;
+
+    /* background-image: url("../images/nochnaya-uborka-sneg.jpg"), linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)); */
+
+   /* background-image: url(../images/nochnaya-uborka-sneg.jpg); */
+   background-size: cover;
+   padding: 0 10%;
+}
+/*последняя*/
+.column__column-block{
+    margin: 0 auto;
+         background: #ffffff;
+         width: 100%;
+
+         max-width: 350px;
+
+         background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='black' stroke-width='5' stroke-dasharray='15%2c 14' stroke-dashoffset='59' stroke-linecap='square'/%3e%3c/svg%3e");
+         border-radius: 20px;
+         min-height: 40vh;
+         padding-top: 5%;
+         padding-bottom: 10%;
+
+
+
+ }
+ .column__column-block:hover{
+     /* transform: translateY(-10px); */
+ }
+ .img__column-block {
+     display: flex;
+     max-width: 30%;
+     padding-top: 5%;
+     margin: 0 auto;
+     height: auto;
+ }
+ .btn_zakaz_outsnow{
+     width: 100%;
+     max-width: 250px;
+     margin: 0 auto;
+     font-size: 1em;
+     margin-top: 3%;
+         padding: 10px 0px;
+
+         border-radius: 10px;
+
+         position: relative;
+         /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+         border: 0;
+         background: rgb(14, 26, 199);
+         z-index: 9;
+         color: #ffffff;
+         text-decoration: none;
+        font-family: 'IBM Plex Sans', sans-serif;
+         text-align: center;
+         display: flex;
+         justify-content: center;
+ }
+ .щебня:hover{
+     background: rgb(84, 94, 236);
+ }
+
+.Block_15_brigad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+
+    /* background-image: url("../images/nochnaya-uborka-sneg.jpg"), linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)); */
+
+   /* background-image: url(../images/nochnaya-uborka-sneg.jpg); */
+   background-size: cover;
+   padding-left: 10%;
+}
+.margin__block_center{
+    margin: 0;
+}
+.block_center__15_brigad{
+    text-align: center;
+}
+.pod_header_proffessional {
+    font-size: 1.3em;
+    margin-bottom: 5%;
+    max-width: 80%;
+    line-height: 1.5;
+}
+.block__obertka-buttton_2{
+    width: 100%;
+}
+.img-responsive__block_15_brigad{
+    margin-top: 2%;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+.block-down__block-call{
+    min-height: 10vh;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 2% 0;
+}
+.text-right__block-call{
+    font-size: 1.1em;
+    font-family: 'PT Sans', sans-serif;
+}
+.text__block-call{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  font-size: 0.7em;
+  color: #ffffff;
+}
+.href-no__block-call{
+    text-decoration: none;
+    color: #ffffff;
+}
+.widget_title{
+    font-size: 1.2em;
+    margin: 0 auto;
+    color: #ccc
+}
+.link{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.link>li>a{
+    text-decoration: none;
+    color: #8f8f8f;
+    line-height: 1.5;
+}
+
+.ocean {
+    height: 0%;
+    width:100%;
+    position:absolute;
+    bottom:-2%;
+    left:0;
+    background: #ffffff;
+  }
+
+  .wave {
+    background: url(../images/wave2.svg) repeat-x;
+    position: absolute;
+    top: -148px;
+
+    width: 6400px;
+    height: 148px;
+    animation: wave 16s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+    z-index: -1;
+  }
+
+  .wave:nth-of-type(2) {
+    top: -125px;
+    animation: wave 16s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 16s ease -1.25s infinite;
+    opacity: 1;
+  }
+
+  @keyframes wave {
+    0% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: -1600px;
+    }
+  }
+
+  @keyframes swell {
+    0%, 100% {
+      transform: translate3d(0,-15px,0);
+    }
+    50% {
+      transform: translate3d(0,5px,0);
+    }
+  }
+.block-call{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    /* min-height: 40vh; */
+    position: relative;
+    overflow-x: hidden;
+
+    /* background-image: url("../images/nochnaya-uborka-sneg.jpg"), linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)); */
+
+   /* background-image: url(../images/nochnaya-uborka-sneg.jpg); */
+   background-size: cover;
+   padding-top: 5%;
+   padding: 1% 10%;
+}
+.header-call__block-call{
+    font-size: 3em;
+    margin: 0;
+}
+.img-responsive__block-call{
+    max-width: 10%;
+    height: auto;
+    /* float: left; */
+    margin-right: 2%;
+}
+.pod-header__block-call{
+    font-size: 1.5em;
+}
+.img_responsive_full{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.block-offer-sneg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    padding: 5% 0;
+    /* background-image: url("../images/nochnaya-uborka-sneg.jpg"), linear-gradient( rgba(0,0,0,0.6), rgba(0,0,0,0.6)); */
+
+   background: #ffffff;
+   background-size: cover;
+}
+.rectangle_block{
+
+    animation: sbs_sneg 31s infinite linear;
+    /* backface-visibility: hidden; */
+}
+@keyframes sbs_sneg{
+    0% {
+        opacity: 1;
+        transform: translateX(0px)translateY(0px)rotate(0deg)scale(1,1);
+        animation-timing-function: linear;
+    }
+    32% {
+        opacity: 1;
+        transform: translateX(0px)translateY(258px)rotate(0deg)scale(1,1);
+        animation-timing-function: linear;
+    }
+}
+
+.block_deshevo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    overflow: hidden;
+padding-bottom: 10%;
+}
+.img_responsive__block_deshevo{
+    max-width: 70%;
+    height: auto;
+}
+.first_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+    background: url(../images/bg-metall-constructions.jpg);
+    background-size: cover;
+
+}
+.call_us__footer_area{
+    margin-top: 5%;
+    font-size: 2em;
+    color: #ffd700;
+    font-family: 'IBM Plex Sans',sans-serif;
+text-transform: uppercase;
+margin-bottom: 2%;
+}
+.pod_call_us__footer_area{
+    color: #e2e2e2;
+    font-size: 1.5em;
+    font-family: 'PT Sans', sans-serif;
+
+}
+.center__footer_area{
+    padding-top: 5%;
+    text-align: left;
+}
+.marging__footer_area{
+    padding: 5% 0;
+}
+.margin__block_deshevo{
+
+}
+.header__block_deshevo{
+    font-size: 3.5em;
+    margin-bottom: 1%;
+}
+.pod-header__block_deshevo {
+    font-size: 1.5em;
+    padding-bottom: 5%;
+}
+.second_section{
+    display: flex;
+
+    width: 100%;
+
+    position: relative;
+    overflow-x: hidden;
+}
+.wrap_bg{
+    padding: 5% 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.8);
+    /* background: url(../images/g.gif), url(../images/uborka-snega-tyumen.jpg); */
+    /* background-size: cover; */
+    background-image: url(../images/snowflakes_1.png),url(../images/snowflakes_2.png);
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+
+    -webkit-animation: t557__snow 20s linear infinite;
+    -moz-animation: t557__snow 20s linear infinite;
+    -o-animation: t557__snow 20s linear infinite;
+    animation: t557__snow 20s linear infinite;
+
+}
+.wrap_bg2{
+    padding: 0% 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.6);
+    /* background: url(../images/g.gif), url(../images/uborka-snega-tyumen.jpg); */
+    /* background-size: cover; */
+    background-image: url(../images/snowflakes_1.png),url(../images/snowflakes_2.png);
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    height: inherit;
+  overflow: hidden;
+    -webkit-animation: t557__snow 20s linear infinite;
+    -moz-animation: t557__snow 20s linear infinite;
+    -o-animation: t557__snow 20s linear infinite;
+    animation: t557__snow 20s linear infinite;
+
+
+}
+@keyframes t557__snow{
+    0% {
+        background-position: 0 0,0 0,600px 0;
+    }
+    100% {
+        background-position: 600px 900px,400px 400px,300px 600px;
+    }
+}
+.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 3em;
+    text-align: center;
+    /* position: absolute; */
+    left: 20%;
+   font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2em;
+}
+.p_play_text{
+
+}
+.head_h1, .head_h2{
+    font-size: 3.5em;
+    color: #ffffff;
+}
+.head_h4{
+    margin: 2% auto;
+    font-size: 3.5em;
+    color: #000000;
+    text-align: center;
+}
+
+p{
+    /*font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.p_head_h1{
+    font-size: 1.3em;
+    color: #d2d2d2;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    line-height: 1.5;
+}
+.p_head_h2{
+    font-size: 1.5em;
+    color: #ffffff;
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+.p_head_h4{
+    margin-bottom: 5%;
+    font-size: 1.5em;
+    color: #000000;
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+.btn_zakaz_snega{
+    font-size: 1.2em;
+margin-top: 3%;
+    padding: 15px 40px;
+
+    border-radius: 10px;
+
+    position: relative;
+    /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+    border: 0;
+    background: rgb(14, 26, 199);
+    z-index: 9;
+    color: #ffffff;
+    text-decoration: none;
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+.btn_zakaz_snega::before{
+    content: "";
+    width: 100%;
+    /* В любом случае необходим, даже пустой. Иначе не будет работать */
+position: absolute;
+    width: 130px;
+    height: 130px;
+    left: -4em;
+    top: -3em;
+
+    background-image: url(../images/arrow.svg);
+    background-position: left;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.btn_zakaz_snega:hover{
+    background: rgb(0, 17, 255);
+}
+.header_proffessional{
+    font-size: 2.5em;
+}
+.img_dvornik{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    right: 10%;
+}
+.img_dvornik2{
+    width: 100%;
+    max-width: 450px;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    right: 1%;
+}
+.button_play{
+    margin-left: 1em;
+    /* border: 2px solid red; */
+display: flex;
+justify-content: center;
+align-items: center;
+    padding: 20px 40px;
+
+    border-radius: 50px;
+
+    position: relative;
+    /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+    border: 0;
+    background: rgb(199, 14, 14);
+}
+.button_play::after{
+    content: "";
+    width: 100%;
+    /* В любом случае необходим, даже пустой. Иначе не будет работать */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+
+    width: 20px;
+    height: 20px;
+
+    background-image: url(../images/play-button.svg);
+  margin-left: 2px;
+    /* background-size: 30px 30px; */
+
+
+}
+.super_row{
+    justify-content: center;
+}
+.img_responsive{
+    max-width: 10%;
+    height: auto;
+    z-index: 99;
+}
+
+.form_one {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #ffffff;
+    margin: 0 auto;
+    height: 100%;
+    min-height: 325px;
+    outline: none;
+    border-radius: 25px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    font-family: 'PT Sans', sans-serif;
+}
+.form_five{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    /* background: #ffffff; */
+    margin: 0 auto;
+    /* min-height: 40vh; */
+    border-radius: 10px;
+    /*font-family: 'IBM Plex Sans', sans-serif; */
+    /* font-family: 'PT Sans', sans-serif; */
+    position: relative;
+    overflow: hidden;
+
+
+}
+.form_five_input{
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(199, 14, 14); */
+    /* border-radius: 10px; */
+    border: 1px solid rgb(4, 0, 255);
+    z-index: 5;
+    background: #ffffff;
+    margin-right: 20px;
+
+    outline: none;
+
+}
+.btn__delete-sosylek2{
+    width: 100%;
+    max-width: 300px;
+
+    font-size: 1em;
+    /* margin-top: 3%; */
+        padding: 10px 5px;
+
+        border-radius: 10px;
+
+        position: relative;
+        /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+        border: 0;
+        background: rgb(14, 26, 199);
+        z-index: 9;
+        color: #ffffff;
+        text-decoration: none;
+       font-family: 'IBM Plex Sans', sans-serif;
+        text-align: center;
+        cursor: pointer;
+}
+.btn__delete-sosylek2:hover{
+    background: rgb(28, 43, 241);
+}
+
+.form_four{
+
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items:center;
+    /* background: #ffffff; */
+    margin: 0 auto;
+    /* min-height: 40vh; */
+    border-radius: 10px;
+    /*font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+    padding: 5% 5%;
+
+}
+.form_four_input{
+    width: 70%;
+    display: flex;
+    max-width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(199, 14, 14); */
+    /* border-radius: 10px; */
+    z-index: 5;
+    background: #ffffff;
+    margin-right: 20px;
+    border: 1px solid black;
+    outline: none;
+
+}
+.form_two{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items:center;
+    /* background: #ffffff; */
+    margin: 0 auto;
+    /* min-height: 40vh; */
+    border-radius: 10px;
+    /*font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+
+}
+.form_two_input{
+    width: 70%;
+    display: flex;
+    max-width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(199, 14, 14); */
+    /* border-radius: 10px; */
+    z-index: 5;
+    background: #ffffff;
+    margin-right: 20px;
+    border: 1px solid black;
+    outline: none;
+
+}
+.form_three{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items:center;
+    /* background: #ffffff; */
+    margin: 0 auto;
+    /* min-height: 40vh; */
+    border-radius: 10px;
+    /*font-family: 'IBM Plex Sans', sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+    position: relative;
+    overflow: hidden;
+
+}
+.flex-row__block-call {
+    /* float: left; */
+    /* width: 100%; */
+    display: flex;
+}
+.form_three_input{
+    width: 40%;
+    display: flex;
+    max-width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(199, 14, 14); */
+    /* border-radius: 10px; */
+    z-index: 5;
+    background: #ffffff;
+    margin-right: 20px;
+    outline: none;
+
+}
+.form_footer_input{
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(199, 14, 14); */
+    /* border-radius: 10px; */
+    z-index: 5;
+    background: #ffffff;
+    margin-right: 20px;
+    outline: none;
+}
+.p_def{
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+   font-family: 'IBM Plex Sans', sans-serif;
+    /* text-transform: uppercase; */
+    /* margin-bottom: 4em; */
+    z-index: 5;
+}
+.form_one_input{
+    outline: none;
+width: 70%;
+display: flex;
+max-width: 300px;
+padding: 10px 10px;
+text-align: center;
+border:none;
+border-bottom: 1px solid rgb(199, 14, 14);
+/* border-radius: 10px; */
+z-index: 5;
+}
+#politic{
+
+        margin-top: 0px;
+        z-index: 5;
+}
+.politic_c{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    z-index: 5;
+}
+    .politic_txt{
+    font-size: 0.7em;
+    padding-left: 5px;
+    z-index: 5;
+    }
+.form_colum{
+    max-width: 350px;
+    flex-direction: column;
+    /* position: relative; */
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.button_call{
+
+
+
+   border: 0;
+    border-radius: 10px;
+    z-index: 5;
+    outline: none;
+}
+.button_play:hover{
+    background: rgb(175, 6, 6);
+}
+.b_call_text2{
+    width: 100%;
+    max-width: 150px;
+    padding: 10px 0px;
+    border: 1px solid rgb(199, 14, 14);
+    color: #ffffff;
+    background: rgb(199, 14, 14);
+    z-index: 5;
+    cursor: pointer;
+}
+.b_call_text2:hover{
+    /* border: 1px solid rgb(199, 14, 14); */
+    color: #ffffff;
+    background: rgb(175, 6, 6);
+}
+.b_call_text, .b_call_text_null{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 0px;
+    border: 1px solid rgb(199, 14, 14);
+    color: #ffffff;
+    background: rgb(199, 14, 14);
+    z-index: 5;
+    cursor: pointer;
+}
+.b_call_text:hover, .b_call_text_null:hover{
+    border: 1px solid rgb(199, 14, 14);
+    color: #ffffff;
+    background: rgb(175, 6, 6);
+}
+
+
+
+/*  */
+
+/* Style the tab */
+.tab {
+    display: flex;
+   min-height: 7vh;
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   font-family: 'IBM Plex Sans', sans-serif;
+    /* border-bottom: 1px dashed #ccc */
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+
+    /* transition: 0.5s; */
+    text-decoration: none;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+
+    text-decoration: none;
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    text-decoration: none;
+    /* font-weight: 600; */
+    /* border-bottom: 1px solid #000; */
+    background: rgb(231, 231, 231);
+    border-radius: 50px;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+    /* border: none; */
+    display: none;
+    width: 100%;
+    text-decoration: none;
+    /* padding: 6px 12px; */
+
+
+}
+.tab_full{
+
+}
+
+#Go_out_snow{
+    padding-top: 0;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-position: center center;
+    background-size: cover;
+}
+#Yborka{
+    padding: 3% 5%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-position: center center;
+    background-size: cover;
+}
+.full_row{
+    width: 100%;
+}
+
+/* .square-block__Yborka{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 40vh;
+    border-radius: 15px;
+
+
+
+} */
+.square-block__Yborka {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 30%;
+    min-height: 45vh;
+    padding-bottom: 15%;
+    border-radius: 15px;
+}
+
+.my-bg__Yborka1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/bolnica.jpg) no-repeat;
+    background-size: 150%;
+   background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.my-bg__Yborka1:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+
+  }
+  .my-bg__Yborka2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/kristal.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in;
+
+}
+.my-bg__Yborka2:hover{
+   opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+
+  }
+  .my-bg__Yborka3{
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/vivoz-snega-trudno.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.my-bg__Yborka3:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+
+  }
+  .my-bg__Yborka4{
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/vivoz-snega-s-proizvodstv.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.my-bg__Yborka4:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+
+  }
+  .my-bg__Yborka5{
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/vivoz-snega-s-detskih-ploshadok.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.my-bg__Yborka5:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+
+  }
+  .my-bg__Yborka6{
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/vivoz-snega-gos-ychrej.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.my-bg__Yborka6:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+
+  }
+.img__Go-out1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/vivoz-snega-vo-dvorax.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.img__Go-out1:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+}
+.img__Go-out2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/trudnodostupnie-mesta.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.img__Go-out2:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+}
+.img__Go-out3{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/injenernie-communication.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.img__Go-out3:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+}
+.img__Go-out4{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/sadovie-territorii.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.img__Go-out4:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+}
+.img__Go-out5{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/klumba.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.img__Go-out5:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+}
+.img__Go-out6{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../images/teplovie-seti.jpg) no-repeat;
+    background-size: 150%;
+    background-position: center center;
+    transition: background-size 1s ease-in;
+    -moz-transition: background-size 1s ease-in;
+    -web-kit-transition: background-size 1s ease-in
+}
+.img__Go-out6:hover{
+    opacity: 0.9;
+    background-position: center center;
+    background-size: 170%;
+}
+.btn__Yborka{
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-top: 3%;
+        padding: 10px 0px;
+
+        border-radius: 10px;
+
+        position: relative;
+        /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+        border: 2px solid #ffffff;
+        background:none;
+
+        z-index: 9;
+        color: #ffffff;
+        text-decoration: none;
+       font-family: 'IBM Plex Sans', sans-serif;
+        text-align: center;
+}
+.mt__full_row{
+    margin-top: 2%;
+}
+.btn__Yborka:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.margin__Yborka{
+    margin-top: 10%;
+}
+.header__Yborka{
+    font-size: 1.5em;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+
+}
+
+#Delete-sosylek{
+    padding: 3% 10%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-position: center center;
+    background-size: cover;
+}
+#Cleadn_snow{
+    padding: 3% 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/uborka-snega-lopatoy.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.text-center {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+}
+.wrap_popup{
+
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.wrap_popup2{
+    width: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+
+}
+.video-container {
+    width: 80vw;
+    min-width: 100%;
+    max-width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 65vh;
+}
+.video__img-video{
+    width: 100%;
+    min-height: 60vh;
+    min-width: 80vw;
+}
+.input__wrap_popup2{
+    width: 100%;
+    display: flex;
+    max-width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+    border: 1px solid rgb(255, 174, 0);
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(199, 14, 14); */
+    /* border-radius: 10px; */
+    z-index: 5;
+    background: #ffffff;
+    margin-right: 20px;
+    outline: none;
+}
+.button_submit_knopka{
+    font-size: 1em;
+
+    width: 100%;
+    max-width: 150px;
+        padding: 10px 0px;
+
+        border-radius: 10px;
+
+        position: relative;
+        /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+        border: 0;
+        background: rgb(14, 26, 199);
+        z-index: 9;
+        color: #ffffff;
+        text-decoration: none;
+       font-family: 'IBM Plex Sans', sans-serif;
+       cursor: pointer;
+       outline: none;
+}
+.button_submit_knopka:hover{
+    background: rgb(0, 17, 255);
+}
+.block__wrap-popup2{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    padding: 5%;
+}
+.top_flex{
+    color: #ffffff;
+    font-size: 3em;
+
+}
+.pod_top_flex{
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+   font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.3;
+
+}
+#Arenda{
+    padding: 3% 5%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-position: center center;
+    background-size: cover;
+}
+.header__Arenda{
+    font-size: 2em;
+    text-align: center;
+}
+#Vivoz{
+    padding: 3% 5%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-position: center center;
+    background-size: cover;
+}
+.header__Vivoz{
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+.column__Vivoz2{
+    margin: 5% auto;
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='black' stroke-width='5' stroke-dasharray='15%2c 14' stroke-dashoffset='59' stroke-linecap='square'/%3e%3c/svg%3e"); */
+    border-radius: 10px;
+    min-height: 65vh;
+    padding-bottom: 2%;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    box-shadow:         0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    /* transition: 0.3s; */
+}
+
+.column__Vivoz{
+    margin: 3% auto;
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='black' stroke-width='5' stroke-dasharray='15%2c 14' stroke-dashoffset='59' stroke-linecap='square'/%3e%3c/svg%3e"); */
+    border-radius: 20px;
+    /* min-height: 55vh; */
+    padding-bottom: 2%;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    box-shadow:         0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    /* transition: translateY 1s; */
+}
+.column__Vivoz:hover{
+
+}
+.column_order_snow{
+    margin: 0 auto;
+    background: #ffffff;
+    width: 100%;
+    display: flex;
+    max-width: 350px;
+    flex-direction: column;
+    /* background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='black' stroke-width='5' stroke-dasharray='15%2c 14' stroke-dashoffset='59' stroke-linecap='square'/%3e%3c/svg%3e"); */
+    border-radius: 20px;
+    min-height: 55vh;
+    padding-bottom: 5%;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow:    0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    box-shadow:         0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+.column_order_snow:hover{
+
+}
+
+
+.best-brigada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+}
+.overlay-img3{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    min-height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    z-index: 10;
+}
+.overlay-img{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    min-height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    z-index: 10;
+}
+.pod_vivoz{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    padding: 0 5%;
+    margin: 2% 0;
+}
+.pod_vivoz_new{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    padding: 0 5%;
+    margin: 2% 0;
+}
+.overlay-img2{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    min-height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 5%;
+    z-index: 10;
+    position: relative;
+}
+.overlay-img0{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    min-height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 5%;
+    z-index: 10;
+    position: relative;
+}
+.name__Vivoz{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    color: #ffffff;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.4);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+.vivoz_pogruzk-img1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/s_pogruzkoy.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.vivoz_pogruzk-img2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/bez_pogruzki.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.vivoz-img1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/puhto-tyumen.jpg) no-repeat;
+
+    background-size: cover;
+}
+.vivoz-img2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/samosval-20m3.jpg) no-repeat;
+
+    background-size: cover;
+}
+.vivoz-img3{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/sneg-27m3.jpg) no-repeat;
+
+    background-size: cover;
+}
+.vivoz-img4{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/vivoz-snega-man.jpg) no-repeat;
+
+    background-size: cover;
+}
+.clean_man-img1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/Danila.jpg) no-repeat;
+ background-position: center center;
+    background-size: cover;
+}
+.clean_man-img2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url(../images/Sasha.jpg) no-repeat;
+ background-position: center center;
+    background-size: cover;
+}
+.clean_man-img3{
+    background: linear-gradient(45deg, rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(../images/stanislav.jpg) no-repeat;
+ background-position: center center;
+    background-size: cover;
+}
+.arenda-img1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/mini-traktor.jpg) no-repeat;
+ background-position: center center;
+    background-size: cover;
+}
+.arenda-img2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/bobcat.jpg) no-repeat;
+    background-position: center center;
+       background-size: cover;
+}
+.arenda-img3{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/amkador.jpg) no-repeat;
+    background-position: center center;
+       background-size: cover;
+}
+.new-img1{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/4Vivoz.jpg) no-repeat;
+
+    background-size: cover;
+}
+.new-img2{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/1Ruchnaya.jpg) no-repeat;
+    background-size: cover;
+}
+.new-img3{
+    background: linear-gradient(45deg, rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/5Sterritorii.jpg) no-repeat;
+    background-size: cover;
+}
+.img-column{
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.h_snow_out {
+    padding: 0 5%;
+    font-size: 1.2em;
+    text-align: center;
+}
+p.pod_snow_out {
+    padding: 0 5%;
+   font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1em;
+}
+.pod_snow_out2{
+    padding: 0 5%;
+   font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.3;
+}
+.header-block__outsnow {
+    font-size: 2.5em;
+    /* padding: 0; */
+    margin: 0;
+}
+.pod-header-block__outsnow{
+    font-size: 1.2em;
+   font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 5%;
+}
+.img-full-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+/*  */
+
+.header__delete-sosylek{
+    font-size: 3em;
+}
+.pod-header__delete-sosylek{
+    width: 80%;
+    font-size: 1.3em;
+   font-family: 'IBM Plex Sans', sans-serif;
+    margin-bottom: 5%;
+}
+.pod-header-opacity__delete-sosylek{
+    margin-top: 5%;
+font-size: 1em;
+font-family: 'Raleway', sans-serif;
+color: #cccccc;
+}
+
+.btn__delete-sosylek{
+    width: 100%;
+    /* max-width: 300px; */
+    margin: 0 auto;
+    font-size: 1em;
+    margin-top: 3%;
+        padding: 10px 40px;
+
+        border-radius: 10px;
+
+        position: relative;
+        /* Это важно, если псевдоэлемент нужно позиционировать относительно этого блока */
+
+        border: 0;
+        background: rgb(14, 26, 199);
+        z-index: 9;
+        color: #ffffff;
+        text-decoration: none;
+       font-family: 'IBM Plex Sans', sans-serif;
+        text-align: center;
+}
+.btn__delete-sosylek:hover{
+    background: rgb(28, 43, 241);
+}
+.btn__one-click{
+    margin-left: 5%;
+    color: #000000;
+    background: #e4e4e4;
+}
+.btn__one-click:hover{
+    background:#cccccc;
+}
+
+.lotie_css{
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.center_block_flex{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+    z-index: 5;
+    text-align: center;
+}
+.center_block_flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+    /* text-align: center; */
+}
+.block_center_2{
+    justify-content: center;
+}
+
+.svg_object{
+    top:0;
+    right: 0;
+    position: absolute;
+    z-index: 99;
+
+}
+.cls-1{
+
+ width: 300px;
+ height: 20px;
+}
+
+
+.list__block-offer-sneg{
+    width: 100%;
+
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.spisok__block-offer-sneg{
+    display: flex;
+    width:40%;
+    background: #cccccc;
+    color: #000000;
+margin: 2%;
+    text-align: center;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+
+}
+.spisok__block-offer-sneg:hover{
+    background: #ebebeb;
+    cursor: pointer;
+}
+
+.img_dvornik_visible{
+    visibility: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer_area{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 0 5%;
+    background: rgb(34, 34, 34);
+}
+
+
+.question__footer_area{
+    font-size: 1.5em;
+    font-family: 'IBM Plex Sans',sans-serif;
+    text-transform: uppercase;
+    color: #ffd700;
+}
+.our_telephone__footer_area{
+    color: #cccccc;
+    /* font-family: 'PT Sans', sans-serif; */
+    width: 100%;
+}
+.number_footer{
+    display: flex;
+    padding-bottom: 3%;
+    width: 100%;
+text-decoration: none;
+color: #ffd700;
+line-height: 1.5;
+}
+
+
+
+
+/* Секция Очистки кровли от снега */
+#Clean-krovli{
+    padding: 3% 10%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    background-position: center center;
+    background-size: cover;
+}
+.header__Clean-krovli{
+    font-size: 2em;
+}
+.responsive-img__Clean-krovli{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+.header-pod__Clean-krovli{
+    line-height: 1.5;
+    border-bottom: 2px solid #000;
+
+}
+.description__Clean-krovli{
+    line-height: 1.5;
+}
+ul.galochka-ul{
+    padding: 0;
+
+}
+ul.galochka-ul>li {
+    list-style: none;
+    background: url(../images/galochka.svg) no-repeat 0 0px;
+    padding-left: 1.5em;
+    margin-top: 2%;
+    font-size: 1.2em;
+   }
+
+   /* ul.galochka-ul{
+
+   list-style-image: url(../images/galochka.svg);
+
+   } */
+
+   .galochka__Clean-krovli{
+
+   }
+
+   /* конец секции очистки кровли от снега */
+
+   /* Удаление сосулек с крыш Delete-bis-sosulek */
+
+#Delete-big-sosulek{
+    padding: 3% 10%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../images/sosulki.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.description__Delete-big-sosulek{
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+ul.galochka-ul2{
+    padding: 0;
+
+}
+ul.galochka-ul2>li {
+    list-style: none;
+    background: url(../images/galochka2.svg) no-repeat 0 0px;
+    padding-left: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    font-size: 1.5em;
+   }
+   /* end Delete-bis-sosulek */
+
+
+   .lottie-visible-player-mobile{
+    visibility: hidden;
+    display: none;
+}
+.lottie-visible-player-desktop{
+    visibility: visible;
+    display: block;
+}

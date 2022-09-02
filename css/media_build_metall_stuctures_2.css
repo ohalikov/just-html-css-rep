@@ -1,0 +1,565 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #Delete-sosylek{
+        display: block;
+    }
+    ul.galochka-ul > li{
+        background:none
+    }
+    /* IE10+ CSS styles go here */
+    .img__column-block{
+        width: 100px;
+    }
+    .wrap_bg{
+
+        position: relative;
+
+    }
+    .wrap_bg2{
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+    }
+    .button_play::after{
+        position: relative;
+    }
+    .form_one{
+        justify-content: center;
+    }
+    .politic_c{
+        margin: 5% auto;
+    }
+    .img_dvornik{
+        max-width: 350px;
+    }
+    }
+
+@media (max-width: 1199px){
+    .footer_area {
+
+        padding: 0 2%;
+
+    }
+    .form_footer_input {
+        font-size: 0.9em;
+        width: 100%;
+        display: flex;
+        max-width: 300px;
+        padding: 10px 5px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        /* border-bottom: 1px solid rgb(199, 14, 14); */
+        /* border-radius: 25px; */
+        z-index: 5;
+        background: #ffffff;
+        margin-right: 10px;
+        outline: none;
+    }
+    .super_row{
+        margin-top: 1%
+    }
+    .tab button{
+        padding: 5px 10px
+    }
+    .img_dvornik{
+        right: 0;
+        z-index: 1;
+    }
+    .column-block{
+        padding: 2%;
+    }
+    .block-offer-sneg{
+        min-height: 100%;
+    }
+    .center_block_flex{
+        min-height: 70vh;
+    }
+    .column-block{
+        min-height: 70vh;
+    }
+    .Block_15_brigad{
+        padding: 5%;
+        min-height: 70vh;
+    }
+    .square-block__Yborka {
+        min-height: 40vh;
+
+    }
+    ul.galochka-ul>li{
+        font-size: 1em;
+    }
+ }
+
+@media (max-width: 991px){
+    #Cleadn_snow{
+        padding: 3% 5%;
+    }
+    .first_section{
+        min-height: 900px;
+    }
+    .wrap_bg{
+        min-height: 900px;
+    }
+    .Clean-night{
+        min-height: 900px;
+    }
+    .wrap_bg2{
+        min-height: 900px;
+    }
+    #Clean-krovli{
+        padding: 3% 5%;
+    }
+    .square-block__Yborka {
+        min-height: 35vh;
+
+    }
+    .my-bg__Yborka1, .my-bg__Yborka2, .my-bg__Yborka3, .my-bg__Yborka4, .my-bg__Yborka5, .my-bg__Yborka6{
+        background-size: cover;
+    }
+
+    .top_menu {
+
+        top: 2%;
+        left: 5%
+    }
+    .btn__delete-sosylek{
+        padding: 10px 15px;
+    }
+    ul.galochka-ul>li{
+        background-size: 20px
+    }
+}
+
+@media (max-width: 769px){
+    .form_three {
+        width: 100%;
+        display: flex;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        /* background: #ffffff; */
+        margin: 0 auto;
+        /* min-height: 40vh; */
+        border-radius: 10px;
+        /* font-family: 'IBM Plex Sans', sans-serif; */
+        font-family: 'PT Sans', sans-serif;
+        position: relative;
+        overflow: hidden;
+        flex-direction: column;
+        /* margin: 5%; */
+        /* line-height: 1.5em; */
+    }
+    .form_footer_input {
+        width: 100%;
+        display: flex;
+        max-width: 100%;
+        padding: 10px 10px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 10px;
+        z-index: 5;
+        background: #ffffff;
+        margin-right: 0;
+        outline: none;
+        margin-bottom: 5%;
+    }
+
+    .form_two_input {
+        width: 100%;
+    }
+    .Clean-night{
+        min-height: 90vh;
+    }
+    .wrap_bg2{
+        min-height: 90vh;
+        padding: 0 5%;
+    }
+    .p_head_h4{
+        font-size: 1em;
+        padding-bottom: 5%;
+    }
+    .btn__delete-sosylek{
+        font-size: 0.9em;
+    }
+    .spisok__block-offer-sneg{
+        font-size: 0.7em;
+        padding: 2%;
+    }
+    .btn_zakaz_outsnow {
+padding: 7px 0;
+        max-width: 150px;
+
+        font-size: 0.9em;
+    }
+    .b_call_text{
+        max-width: 200px;
+    }
+    .block-call{
+        padding: 1% 2%;
+    }
+    .header-call__block-call{
+        font-size: 2em;
+    }
+    .pod-header__block-call{
+        font-size: 1.1em;
+    }
+    .pod_header_proffessional{
+        max-width: 100%;
+        font-size: 1.1em;
+        padding-bottom: 5%;
+    }
+    .header_proffessional{
+        font-size: 2em;
+    }
+    .head_h4{
+        font-size: 2em;
+        margin-bottom: 5%;
+    }
+    .img_dvornik{
+        max-width: 400px;
+        right: 0;
+        z-index: 1;
+    }
+    #Yborka{
+        padding: 3% 0;
+    }
+    .super_row{
+        margin-top: 0%
+    }
+    .top_menu {
+
+        top: 2%;
+        left: 0%
+    }
+    .wrap_bg{
+        padding: 5% 2%
+    }
+    h1.head_h1{
+        font-size: 3em
+    }
+}
+
+@media (max-width: 575px){
+    .btn_zakaz_snega{
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+    .b_call_text{
+        padding: 10px 0px;
+    }
+    #Clean-krovli{
+        padding: 5% 2%;
+    }
+    #Delete-big-sosulek{
+        padding: 5% 2%;
+    }
+    #Delete-sosylek{
+        padding: 5% 2%;
+    }
+    ul.galochka-ul2>li {
+        list-style: none;
+        background: url(../images/galochka2.svg) no-repeat 0 0px;
+        padding-left: 1.5em;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin-top: 1%;
+        font-size: 1.2em;
+        background-size: 20px;
+    }
+    ul.galochka-ul>li {
+        list-style: none;
+        background: url(../images/galochka.svg) no-repeat 0 0px;
+        padding-left: 1.5em;
+        margin-top: 1%;
+        font-size: 1em;
+        background-size: 15px;
+    }
+
+    .pod_top_flex{
+        font-size: 1.2em;
+    }
+    .column__column-block{
+        margin: 3% auto;
+    }
+    h1.head_h1, .head_h2 {
+        font-size: 2em;
+        color: #ffffff;
+        text-align: center;
+    }
+    .wrap_bg2 {
+        padding: 0 2%;
+    }
+    .pod-header__delete-sosylek{
+        width: 100%;
+    }
+    .header__delete-sosylek{
+        font-size: 2em;
+    }
+    #Delete-sosylek{
+        padding: 3% 5%;
+    }
+    .btn__delete-sosylek {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 5% auto;
+    }
+    .btn_zakaz_snega::before{
+        left: -3em;
+    }
+    .pod_top_flex{width: 100%;
+    padding: 5%;
+text-align: justify;}
+    .top_flex{
+        text-align: center;
+        font-size: 2em;
+    }
+    .header__Yborka{
+        font-size: 1em;
+    }
+    .col-6.col-md-6.col-lg-4.mt__full_row{
+        padding: 1%;
+    }
+    .tab{
+        border-bottom: 1px dashed #ccc;
+    }
+    .header-block__outsnow{
+        text-align: center;
+        font-size: 2em;
+    }
+    .pod-header-block__outsnow{
+        text-align: center;
+        font-size: 1em;
+    }
+    .column_order_snow{
+        margin: 3% auto;
+    }
+    .form_four_input{
+        border: 1px solid #0048ff54;
+    }
+    .p_play_text{
+        font-size: 1em
+    }
+    .p_head_h1{
+        font-size: 1.1em;
+        text-align: center
+    }
+    .p_def{
+        font-size: 1.1em
+    }
+    .form_colum{
+        max-width: 300px
+    }
+    .form_one{
+        min-height: 300px
+    }
+    .b_call_text2{
+        font-size: 0.8em;
+        padding: 10px 0px
+    }
+    .form_four_input{
+        width: 100%;
+        padding: 5px 5px;
+        margin-left: 0px;
+        font-size: 0.8em
+    }
+    .pod_vivoz{
+        padding: 0 2%;
+        font-size: 1em
+    }
+    .form_four{
+        padding: 5% 2%
+    }
+    .tab button.active {
+        text-decoration: none;
+        /* font-weight: 600; */
+        /* border-bottom: 1px solid #000; */
+        background: rgb(231, 231, 231);
+        border-radius: 0
+
+    }
+    .form_colum{
+        margin-top: 5%
+    }
+    .tel_top{
+        text-align: right;
+        font-weight: normal
+    }
+    .wrap_bg{
+        padding: 5% 0%
+    }
+    .btn_zakaz_outsnow {
+        padding: 10px 0;
+        max-width: 200px;
+        font-size: 1em;
+    }
+    .btn__delete-sosylek {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin: 5% auto;
+        font-size: 1em;
+    }
+    .img_dvornik_visible{
+        visibility: visible;
+        max-width: 80%;
+        height: auto;
+        z-index: 90;
+
+    }
+    .center_block_flex {
+        min-height: 50vh;
+    }
+    .dvornik_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  overflow: hidden;
+  padding-top: 5%;
+  right: -2%;
+  margin-bottom: -5%;
+  z-index: 90;
+    }
+    .p_head_h2{
+        font-size: 1.2em;
+    }
+    .form_two_input{
+        font-size: 1em;
+    }
+    .square-block__Yborka {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 30%;
+        min-height: 30vh;
+        padding-bottom: 15%;
+        border-radius: 15px;
+    }
+    .text-right__block-call{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .text__block-call{
+        font-size: 0.7em;
+    }
+    .header__block_deshevo{
+        font-size: 2em;
+    }
+    .pod-header__block_deshevo{
+        font-size: 1.2em;
+    }
+    .b_call_text {
+        margin-top: 2%;
+        padding: 10px;
+        font-size: 0.8em;
+    }
+    .form_two,.form_five{
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .form_two_input,.form_five_input{
+        margin-right: 0;
+    }
+    .btn__delete-sosylek2{
+        margin-top: 2%;
+    }
+    .form_footer_input{
+        max-width: 300px;
+        margin-bottom: 2%;
+    }
+    .b_call_text_null{
+        max-width: 200px;
+    }
+    .b_call_text{
+        max-width: 300px;
+      border-radius: 10px;
+        padding: 10px 10px;
+    }
+}
+@media (max-width: 345px){
+    .header__Clean-krovli{
+        font-size: 1.5em;
+    }
+    .lottie-visible-player-mobile{
+        visibility: visible;
+        display: block;
+    }
+    .lottie-visible-player-desktop{
+        visibility: hidden;
+        display: none;
+    }
+    .wrap_bg, .wrap_bg2{
+        animation: none;
+    }
+    .header_proffessional{
+        font-size: 1.5em;
+    }
+    .tel_top{
+        font-size: 1em;
+    }
+    h1.head_h1{
+        font-size: 1.5em;
+    }
+    .p_def{
+        font-size: 1em;
+    }
+    .pod_vivoz_new{
+        font-size: 0.9em;
+    }
+    .b_call_text{
+        margin-top: 2%;
+        padding: 10px 5px;
+        font-size: 0.7em;
+    }
+    .form_one{
+       padding: 5%;
+
+    }
+    .p_head_h2{
+        font-size: 1em;
+    }
+    .form_two_input{
+        font-size: 0.9em;
+    }
+}
+
+
+/* iPhone 5 ----------- */
+@media only screen and (min-width: 320px) and (max-height: 568px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+    /* стили */
+    }
+    @media only screen and (min-width: 320px) and (max-height: 568px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+    /* стили */
+    }
+
+    /* iPhone 6 ----------- */
+    @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+    /* стили */
+        h1.head_h1{
+            padding-top: 5%;
+            font-size: 2em;
+        }
+        .p_head_h1{
+            font-size: 1em;
+        }
+        .form_one{
+            min-height: 60vh;
+        }
+
+    }
+    @media only screen and (min-width: 375px) and (max-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+
+    }
+
+    /* iPhone 6+ ----------- */
+    @media only screen and (min-width: 413px) and (max-height: 737px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2){
+    /* стили */
+
+    }
+    @media only screen and (min-width: 414px) and (max-height: 736px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2){
+    /* стили */
+
+    }
