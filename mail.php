@@ -9,11 +9,11 @@ $message .= "Телефон: ".$_POST['teleph']."<br>";  //полученное 
 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n"; // указывает на тип посылаемого контента
 // mail($to, $tema, $message, $headers); //отправляет получателю на емайл значения переменных
 mail($to2, $tema, $message, $headers);
-header('Location: https://metall-modull.ru/thankyou/');
+header('Location: https://metalurg-ural.ru/thankyou/');
     
 ?>
 <html>
 <head>
-<meta http-equiv="refresh" content="0;URL=https://metall-module.ru/thankyou/" />
+<meta http-equiv="refresh" content="0;URL=https://metalurg-ural.ru/thankyou/" />
 </head> 
 </html>
