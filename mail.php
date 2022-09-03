@@ -14,6 +14,6 @@ header('Location: https://metall-modull.ru/thankyou/');
 ?>
 <html>
 <head>
-<meta http-equiv="refresh" content="0;URL=https://fundament72.ru/thankyou/" />
+<meta http-equiv="refresh" content="0;URL=https://metall-module.ru/thankyou/" />
 </head> 
 </html>
